@@ -52,5 +52,16 @@ int yywrap()
 	return 1;
 }
 
+//to run
+
+Create a c file ( ex: input.txt) with few identifiers, keywords, operators
+2. Use the following command to read the contents of the file and display
+them in the console: cat input.txt
+
+3. lex 6b.l
+4. yacc -d 6b.y
+5. cc lex.yy.c y.tab.c -ll
+6. ./a.out
+
 
 
