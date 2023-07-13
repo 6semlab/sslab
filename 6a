@@ -19,3 +19,18 @@ int main()
 	printf("\n No of singleline comments: %d",sl);
 	return 0;
 }
+
+//to run
+Create a c file ( ex: input.c) with few single line comments and multi-
+line comments
+2. Use the following command to read the contents of the file and display
+them in the console: cat input.c
+
+3. lex 6a.l
+
+4. cc lex.yy.c -ll
+
+5. ./a.out
+
+6. To see the content of the output file after removing the comment lines:
+cat output.c
